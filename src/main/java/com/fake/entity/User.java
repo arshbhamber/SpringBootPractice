@@ -16,6 +16,8 @@ public class User{
 
   private String email;
 
+  private String phoneNumber;
+
   public Integer getId(){
     return id;
   }
@@ -40,6 +42,13 @@ public class User{
   this.name = name;
   }
 
+  public String getphoneNumber() {
+    return phoneNumber;
+  }
+
+  public void setPhoneNumber(String phoneNumber) {
+    this.phoneNumber = phoneNumber;
+  }
 
 
 
